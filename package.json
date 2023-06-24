@@ -1,5 +1,5 @@
 {
-  "name": "mitt",
+  "name": "@mistjs/mitt",
   "version": "3.0.0",
   "description": "Tiny 200b functional Event Emitter / pubsub.",
   "module": "dist/mitt.mjs",
@@ -7,7 +7,7 @@
   "jsnext:main": "dist/mitt.mjs",
   "umd:main": "dist/mitt.umd.js",
   "source": "src/index.ts",
-  "typings": "index.d.ts",
+  "types": "index.d.ts",
   "exports": {
     "types": "./index.d.ts",
     "import": "./dist/mitt.mjs",
