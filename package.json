@@ -8,6 +8,9 @@
   "umd:main": "dist/mitt.umd.js",
   "source": "src/index.ts",
   "types": "index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     "types": "./index.d.ts",
     "import": "./dist/mitt.mjs",
